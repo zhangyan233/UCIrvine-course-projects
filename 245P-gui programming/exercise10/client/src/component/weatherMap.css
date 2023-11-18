@@ -1,0 +1,37 @@
+
+.hidden {
+    margin-top: 89px;
+    width: 100%;
+  }
+  
+.result {
+    margin-top: 120px;
+    font-size: 20px;
+  }
+
+.my-node-enter{
+  opacity: 0;
+}
+
+.my-node-enter-active{
+  opacity: 1;
+  transition: opacity 4000ms linear;
+}
+
+.my-node-enter-done{
+  opacity: 1;
+  transition: opacity 4000ms;
+}
+
+.my-node-exit{
+  opacity:1;
+}
+
+.my-node-exit-active{
+  opacity: 0;
+  transition: opacity 4000ms;
+}
+
+.my-node-exit-done{
+  opacity: 0;
+}

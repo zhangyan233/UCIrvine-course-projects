@@ -1,0 +1,21 @@
+.carousel {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  overflow: hidden;
+}
+
+.slide__container {
+  display: inline-flex;
+  white-space: nowrap;
+  position: relative;
+  height: 600px;
+  
+}
+
+img {
+  object-fit: cover;
+  width: 600px;
+  height: 600px;
+}

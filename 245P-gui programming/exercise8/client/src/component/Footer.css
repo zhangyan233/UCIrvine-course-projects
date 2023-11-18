@@ -1,0 +1,21 @@
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 40px;
+   background-color: rgb(211, 229, 236);   
+   text-align: center;
+ }
+
+ .footer a{
+   font-size: 15px;
+   color: rgb(2, 10, 81);
+   line-height: 40px;
+   text-decoration: none;
+ }
+
+ .footer a:hover{
+  color: white;
+  text-decoration: underline;
+ }
