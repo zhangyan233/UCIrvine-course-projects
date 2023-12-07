@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41623894-2759-4707-89cd-19aa42a095ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module2/Algorithm-module2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module2/out/production/Algorithm-module2/task/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module2/out/production/Algorithm-module2/task/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module2/out/production/Algorithm-module2/test/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module2/src/task/Task1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module2/src/task/Task2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module2/src/test/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/Algorithm-module3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/out/production/Algorithm-module3/task1/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/out/production/Algorithm-module3/task1/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/out/production/Algorithm-module3/test/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/src/task1/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/src/task1/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module3/src/test/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/Algorithm-module4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/out/production/Algorithm-module4/city_population.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/out/production/Algorithm-module4/city_population_no_dup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/out/production/Algorithm-module4/road_network.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/out/production/Algorithm-module4/task/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/out/production/Algorithm-module4/task/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/out/production/Algorithm-module4/task/Task3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/out/production/Algorithm-module4/task/Task4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/out/production/Algorithm-module4/task/Task5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/out/production/Algorithm-module4/test/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/src/city_population.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/src/city_population_no_dup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/src/road_network.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/src/task/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/src/task/Task2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/src/task/Task3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/src/task/Task4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/src/task/Task5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module4/src/test/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/Algorithm-module5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/out/production/Algorithm-module5/task/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/out/production/Algorithm-module5/task/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/out/production/Algorithm-module5/test/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/src/task/Task1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/src/task/Task2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Algorithm-module5/src/test/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../241P-Algorithm/Assignment-1-[Algorithm-Analysis]-completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database-02-3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../database-02-3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/database-05/test/DatabaseManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/database-05/test/DatabaseManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/database-05/test/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/database-05/test/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/data structure-module 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/out/production/data structure-module 1/Entity/AvailableID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/out/production/data structure-module 1/Entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/out/production/data structure-module 1/Main/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/out/production/data structure-module 1/Test/TestModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/src/Entity/AvailableID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/src/Entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/src/Main/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module 1/src/Test/TestModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/data structure-module2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/out/production/data structure-module2/Entity/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/out/production/data structure-module2/task/OperateString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/out/production/data structure-module2/task/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/out/production/data structure-module2/task/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/out/production/data structure-module2/task/StackWithTwoQs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/out/production/data structure-module2/test/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/src/Entity/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/src/task/OperateString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/src/task/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/src/task/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/src/task/StackWithTwoQs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module2/src/test/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/data structure-module3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/out/production/data structure-module3/Entity/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/out/production/data structure-module3/task/HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/out/production/data structure-module3/task/ReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/out/production/data structure-module3/task/pride-and-prejudice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/out/production/data structure-module3/test/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/src/Entity/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/src/task/HashTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/src/task/ReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/src/task/pride-and-prejudice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module3/src/test/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/data structure-module4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/out/production/data structure-module4/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/out/production/data structure-module4/inorder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/out/production/data structure-module4/levelFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/out/production/data structure-module4/postorder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/out/production/data structure-module4/preorder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/out/production/data structure-module4/task/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/out/production/data structure-module4/test/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/out/production/data structure-module4/tree-input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/src/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/src/inorder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/src/levelFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/src/postorder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/src/preorder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/src/task/BST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/src/test/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module4/src/tree-input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/data structure-module5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/out/production/data structure-module5/entity/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/out/production/data structure-module5/entity/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/out/production/data structure-module5/task/BSTToHeapTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/out/production/data structure-module5/task/HeapBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/out/production/data structure-module5/test/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/src/entity/BST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/src/entity/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/src/task/BSTToHeapTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/src/task/HeapBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data structure/data structure-module5/src/test/Solution.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../develop/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\develop\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectId" id="2X2V3aXje9dDuvcvK8NNjNVCXDx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaweb\database-05\src\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaweb\database-05\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Solution" />
+      <module name="database-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41623894-2759-4707-89cd-19aa42a095ef" name="Changes" comment="" />
+      <created>1697826965275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697826965275</updated>
+      <workItem from="1697826966587" duration="19184000" />
+      <workItem from="1697943227685" duration="9000" />
+      <workItem from="1697947768612" duration="188000" />
+      <workItem from="1697998655478" duration="824000" />
+      <workItem from="1698095623417" duration="19000" />
+      <workItem from="1698095672040" duration="811000" />
+      <workItem from="1698979348697" duration="2314000" />
+      <workItem from="1699030638023" duration="28000" />
+      <workItem from="1699394381504" duration="61000" />
+      <workItem from="1700178192751" duration="1287000" />
+      <workItem from="1700179569229" duration="40000" />
+      <workItem from="1700246591950" duration="1630000" />
+      <workItem from="1700502624383" duration="81000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

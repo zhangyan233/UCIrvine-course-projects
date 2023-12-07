@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Yan's website</title>
+ <style type="text/css">
+ header, section, footer, aside, nav, article, figure, figcaption 
+ { 
+ display: block;
+}
+
+ body { 
+ background-color:rgb(240, 239, 220); 
+ font-family: Georgia, times, serif; 
+ line-height: 1.4em;
+} 
+
+ .wrapper { 
+ width: 940px; 
+ margin: 100px; 
+ border: 2px solid #000000; 
+ background-color: #ffffff;
+} 
+
+ header { 
+ height: 160px; 
+ background-image: url(./headerBackground.jpg);
+
+ } 
+
+ h1 { 
+ color: rgb(218, 224, 235);
+ font-weight: bolder;
+ font-size: 3em;
+ width: 940px; 
+ height: 130px; 
+ line-height: 130px;
+ text-align: center;
+ margin: 0;
+ padding: 20px auto;
+}
+
+ nav, footer { 
+ clear: both; 
+ color: #ffffff; 
+ background-color: #76abda; 
+ height: 30px;
+} 
+
+ nav ul { 
+ width: 940px;
+ padding: 2.5px 0px 0px 20px;
+ } 
+
+ nav li { 
+ display: inline; 
+ margin-right: 80px;
+ } 
+
+ nav li a { 
+ color: #ecebf3;} 
+
+ nav li a:hover, nav li a.current { 
+ color: #03035d;
+ }
+
+ section.cvAddExperience{
+ float:left; 
+ width: 650px; 
+ height: 600px;
+ margin-top: 16px;
+ border-right: 2px solid #f1f1f5;
+ }
+
+ section.information { 
+ float:left; 
+ width: 650px; 
+ height: 300px;
+ border-bottom: 2px solid #f1f1f5;
+ } 
+
+ article { 
+ overflow:hidden; 
+ width: 100%;
+ } 
+
+ hgroup { 
+ margin-top:16px;
+ } 
+
+ figure { 
+ float: left; 
+ width: 290px; 
+ height: 220px; 
+ padding: 0px; 
+ margin: 20px; 
+ border: 2px solid #d4d2ed;
+ } 
+
+ section.experience{ 
+ float: right;
+ width: 650px; 
+ height: 300px;
+ }
+
+ cgroup {
+ float: left;
+ width: 310px;
+ height: 230px;
+ margin-left: 10px;
+ }
+
+ photo {
+ float: left; 
+ width:240px; 
+ height: 130px; 
+ padding: 0px; 
+ margin: 5px; 
+ border: 2px solid #d4d2ed;
+ }
+
+ h2 { 
+ margin: 7.5px 0px 7.5px 0px; 
+ text-align: center;
+ padding: 0px;
+ line-height: 30px;
+ color: rgb(7, 32, 156);
+} 
+
+ h3 { 
+ margin: 0px 0px 5px 0px; 
+ color: skyblue;
+ line-height: 20px;
+ } 
+
+ aside { 
+ width: 230px; 
+ float:left; 
+ padding: 0px 0px 0px 20px;
+ } 
+
+ aside section a { 
+ display: block; 
+ padding: 10px; 
+ } 
+
+ a { 
+ color: skyblue; 
+ font-weight: bolder;
+ line-height: 20px;
+ text-decoration: none;
+ }
+
+ aside section a:hover { 
+ color: #1d2ab9; 
+ background-color: #efefef;
+ border-bottom: 1px solid #1d2ab9;
+ } 
+
+ aside h2 { 
+ padding: 25px 0px 10px 0px; 
+ color: rgb(7, 32, 156);} 
+
+ footer { 
+ font-size: 80%; 
+ padding: 5px 0px 0px 20px;
+ }
+
+ </style>
+</head>
+<body>
+
+ <div class="wrapper">
+
+ <header>
+ <h1>Yan 's home</h1>
+
+ <nav>
+ <ul>
+ <li><a href="" class="current">introduction</a></li>
+ <li><a href="">personal information</a></li>
+ <li><a href="">education</a></li>
+ <li><a href="">experience</a></li>
+ <li><a href="" class="end">contact</a></li>
+ </ul>
+ </nav>
+
+ </header>
+
+ <section class="cvAddExperience">
+ <section class="information">
+ <article>
+ <figure>
+ <img src="./information.jpg" alt="personal photo"  width="290" height="220"/>
+ </figure>
+
+ <hgroup>
+ <h2>Yan's information</h2>
+ <h3>Major: Software Engineering</h3>
+ <h3>Graduate Year: Dec 2024</h3>
+ </hgroup>
+
+ <p>I am Yan, and actively looking for a 2024 summer SDE internship. I am pursuing master degree of Software Engineering and have received a master's degree and a bachelor's degree in electrical engineering in Huazhong University of Science and Technology and have a back-end software development engineer internship experience in China.</p>
+
+ </article> 
+ </section>
+
+ <section class="experience">
+    <h2>Yan's experience</h2>
+
+    <cgroup>
+        <h3>Backend Software Intern</h3>
+        <photo>
+            <img src="./backend.jpg" alt="backend intern" width="240" height="130">
+        </photo>
+        <p>Participated in the product design; Developed some back-end modules.</p>
+    </cgroup>
+
+    <cgroup>
+        <h3 class="second">Graduate Research Assistant</h3>
+        <photo>
+            <img src="./graduateAssistant.jpg" alt="graduate assistant" width="240" height="130">
+        </photo>
+        <p>Established the working circuit simulation model of the voltage transformer and physical simulation model of the fuse.</p>
+    </cgroup>
+ </section>
+
+</section>
+
+ <aside>
+    <section class="popular-recipes">
+    <h2>Education experience</h2>
+    <a href="">Software Engineering, University of California, Irvine</a>
+    <a href="">Electrical Engineering, Huazhong University of Science and Technology</a>
+    <a href="">Electrical Engineering, Huazhong University of Science and Technology</a>
+    </section>
+   
+   
+    <section class="contact-details">
+    <h2>Contact</h2>
+    <p>mail address: yanz73@uci.edu<br />
+    address: XXXX Palo Verde<br />
+    Irvine, CA<br />
+    92617</p>
+    </section>
+
+ </aside>
+
+ <footer>
+  <end>Yan's website</end>
+ </footer>
+ 
+ </div><!-- .wrapper -->
+</body>
+</html>
