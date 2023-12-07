@@ -1,3 +1,4 @@
+import javax.xml.crypto.Data;
 import java.io.*;
 import java.net.*;
 
@@ -44,32 +45,74 @@ public class Client {
                     ds.send(sendToServer);
                     DatagramPacket receiveFromServer=null;
 
-                    while (true) {
-                        //receiving information from server
-                        receiveFromServer = new DatagramPacket(bytes, bytes.length);
-                        ds.receive(receiveFromServer);
-                        String reply = new String(receiveFromServer.getData(),0,receiveFromServer.getLength());
+                    receiveFromServer = new DatagramPacket(bytes, bytes.length);
+                    ds.receive(receiveFromServer);
+                    String reply = new String(receiveFromServer.getData(),0,receiveFromServer.getLength());
 
-                        //"ok" means this file exists, continue to read this file
-                        if (reply.equals("OK")) {
-                            System.out.println("OK");
-                            continue;
-                        }
+                    //judge whether the file exists
 
-                        //"error" means this file doesn't exist, end this process
-                        if (reply.equals("error")) {
-                            System.out.println("Error: file doesn't find");
-                            break;
-                        }
-                        //"end" means finish reading this file, should end this process
-                        if (reply.equals("END")) {
-                            break;
-                        }
+                    if (reply.equals("OK")) {
+                        System.out.println("OK");
 
-                        //display every row of content from this file
-                        System.out.println(reply);
+                        //start to receive content
+                        int sequenceNumber;
+                        boolean isLast;
+                        int currentSequence=0;
+
+                        while(true){
+                            byte[] message=new byte[1024];//store information from server every time
+                            receiveFromServer=new DatagramPacket(message,message.length);
+                            ds.receive(receiveFromServer);
+                            message=receiveFromServer.getData();
+
+                            sequenceNumber=((message[0]&0xff)<<8)+(message[1]&0xff);
+                            isLast=(message[2]&0xff)==1;
+                            //System.out.println((int)sequenceNumber);
+
+                            //right:sequenceNumber=currentSequence+1;
+                            if(sequenceNumber==currentSequence+1){
+                                currentSequence=sequenceNumber;
+                                System.out.println(new String(message,3,message.length-3));
+                            }
+
+                            //inform server "i get the No.currentSequence part"
+                            byte[] replyNumber=new byte[2];
+                            replyNumber[0]=(byte) (currentSequence>>8);
+                            replyNumber[1]=(byte)currentSequence;
+                            DatagramSocket datagramSocket=new DatagramSocket();
+                            DatagramPacket sendReplyNumber=new DatagramPacket(replyNumber,replyNumber.length,inetAddress,10001);
+                            datagramSocket.send(sendReplyNumber);
+
+                            //judge whether is the last part
+                            if(isLast){
+                                break;
+                            }
+                        }
+                    }else{
+                        System.out.println("Error: file doesn't find");
                     }
-                    //end this loop, end operations
+
+//                    while (true) {
+//                        //receiving information from server
+//
+//
+//                        //"ok" means this file exists, continue to read this file
+//
+//
+//                        //"error" means this file doesn't exist, end this process
+//                        if (reply.equals("error")) {
+//                            System.out.println("Error: file doesn't find");
+//                            break;
+//                        }
+//                        //"end" means finish reading this file, should end this process
+//                        if (reply.equals("END")) {
+//                            break;
+//                        }
+//
+//                        //display every row of content from this file
+//                        System.out.println(reply);
+//                    }
+//                    //end this loop, end operations
                 } else if (command.equals("END")) {
                     System.out.println("exiting system");
                     break;

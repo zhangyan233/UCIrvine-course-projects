@@ -39,10 +39,10 @@ public class Server {
             datagramSocket = new DatagramSocket(port,serverAddress);
 
             //set server waiting time 20s
-            datagramSocket.setSoTimeout(20000);
+            datagramSocket.setSoTimeout(2000000);
             while(true){
                     //receive command from client
-                    byte[] bytes = new byte[512];
+                    byte[] bytes = new byte[1024];
                     DatagramPacket clientRequest = new DatagramPacket(bytes, bytes.length);
                     System.out.println("server is getting command");
                     datagramSocket.receive(clientRequest);

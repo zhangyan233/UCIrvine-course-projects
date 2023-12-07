@@ -4,6 +4,7 @@ import java.net.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.concurrent.Callable;
+import java.util.function.Function;
 
 public class ThreadServer implements Runnable {
     private DatagramSocket datagramSocket;
@@ -21,7 +22,7 @@ public class ThreadServer implements Runnable {
     public void run() {
 
         try {
-                byte[] bytes = new byte[512];
+                byte[] bytes = new byte[1024];
 
                 //get address and port from client
                 InetAddress clientAddress = clientRequest.getAddress();
@@ -51,7 +52,7 @@ public class ThreadServer implements Runnable {
                     DatagramPacket sendToClient = new DatagramPacket(bytes, bytes.length, clientAddress, clientPort);
                     datagramSocket.send(sendToClient);
 
-                } else if (command.startsWith("get ")) {
+                } else {
                     //get name from a file
                     String fileName = command.substring(4);
                     File file = new File(filePath, fileName);
@@ -64,6 +65,9 @@ public class ThreadServer implements Runnable {
                         DatagramPacket OK = new DatagramPacket(bytes, bytes.length, clientAddress, clientPort);
                         datagramSocket.send(OK);
 
+                        /*------------------make all content from file become string--------------------------*/
+
+                        StringBuilder sb=new StringBuilder();
                         BufferedReader br=null;
                         try {
 
@@ -71,10 +75,7 @@ public class ThreadServer implements Runnable {
                             br=new BufferedReader(new FileReader(file));
                             String line=null;
                             while ((line=br.readLine())!=null) {
-                                System.out.println(line);
-                                bytes = line.getBytes();
-                                DatagramPacket sendToClient = new DatagramPacket(bytes, bytes.length, clientAddress, clientPort);
-                                datagramSocket.send(sendToClient);
+                                sb.append(line);
                             }
                         } catch (Exception e) {
                             e.printStackTrace();
@@ -88,11 +89,69 @@ public class ThreadServer implements Runnable {
                             }
                         }
 
-                        //tell client end reading file, this operation ends
-                        bytes = "END".getBytes();
-                        DatagramPacket end= new DatagramPacket(bytes, bytes.length, clientAddress, clientPort);
-                        datagramSocket.send(end);
-                        System.out.println("END");
+                        String content=sb.toString();
+                        byte[] fileBytes = content.getBytes();
+                        //System.out.println(new String(fileBytes)+"end");
+
+                        ///*------------------divide content to several parts--------------------------*/
+                        int sequenceNumber=0;//set order
+                        int askSequence=0;//whether client receive correctly
+
+                        for (int i = 0; i < fileBytes.length; i+=1021) {
+                            //System.out.println(i);
+                            sequenceNumber+=1;
+
+                            //create Message
+                            byte[] message=new byte[1024];
+                            message[0]=(byte) (sequenceNumber>>8);//sequence to make sure correctly
+                            message[1]=(byte) sequenceNumber;
+
+                            //judge whether read the end of file
+                            if((i+1021)>=fileBytes.length){
+                                message[2]=(byte) 1;
+                                System.arraycopy(fileBytes,i,message,3,fileBytes.length-i);
+                            }else{
+                                message[2]=(byte) 0;
+                                System.arraycopy(fileBytes,i,message,3,1021);
+                            }
+
+                           //System.out.println(new String(message));
+
+                            //send the part to client
+                            DatagramPacket sendToClient=new DatagramPacket(message,message.length,clientAddress,clientPort);
+                            datagramSocket.send(sendToClient);
+
+                            boolean ackRec;//whether client receive this part
+
+                            while(true){
+                                byte[] ack=new byte[2];
+                                DatagramSocket replyNumber=new DatagramSocket(10001,clientAddress);
+                                DatagramPacket ackClientReceive=new DatagramPacket(ack,ack.length);
+                                replyNumber.setSoTimeout(20000);
+
+                                try {
+                                    replyNumber.receive(ackClientReceive);
+                                    askSequence=((ack[0]&0xff)<<8)+(ack[1]&0xff);
+                                    //System.out.println((int)askSequence);
+                                    ackRec=true;
+                                } catch (IOException e) {
+                                    ackRec=false;
+                                    e.printStackTrace();
+                                }
+
+                                //System.out.println((int)askSequence+" "+sequenceNumber);
+                                replyNumber.close();
+
+                                //judge whether the order is correct
+                                if(ackRec&&askSequence==sequenceNumber){
+                                    //client receive this part, exit loop and continue to work
+                                    break;
+                                }else{
+                                    datagramSocket.send(sendToClient);
+                                }
+
+                            }
+                        }
                     } else {
                         //this file doesn't exist
                         bytes="error".getBytes();
@@ -109,5 +168,9 @@ public class ThreadServer implements Runnable {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    int replyNumber(byte[] data){
+        return (int)data[0];
     }
 }
