@@ -1,0 +1,21 @@
+Feb 27, 2024 8:36:47 PM LogOutput execute
+INFO: 
+Student Registration System
+
+Feb 27, 2024 8:36:47 PM LogOutput execute
+INFO: 1) List all students
+Feb 27, 2024 8:36:47 PM LogOutput execute
+INFO: 2) List all courses
+Feb 27, 2024 8:36:47 PM LogOutput execute
+INFO: 3) List students who registered for a course
+Feb 27, 2024 8:36:47 PM LogOutput execute
+INFO: 4) List courses a student has registered for
+Feb 27, 2024 8:36:47 PM LogOutput execute
+INFO: 5) List courses a student has completed
+Feb 27, 2024 8:36:47 PM LogOutput execute
+INFO: 6) Register a student for a course
+Feb 27, 2024 8:36:47 PM LogOutput execute
+INFO: x) Exit
+Feb 27, 2024 8:36:47 PM LogOutput execute
+INFO: 
+Enter your choice and press return >> 
