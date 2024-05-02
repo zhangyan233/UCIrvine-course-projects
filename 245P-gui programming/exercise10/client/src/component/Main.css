@@ -1,0 +1,52 @@
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  line-height: 25px; /* Increased text to enable scrolling */
+  padding: 30px 0px;
+}
+
+  h2 { 
+    margin: 10px 0px 10px 0px; 
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+    color: rgb(7, 32, 156);
+  } 
+     
+  h3 { 
+    margin: 0px 0px 5px 0px; 
+    color: skyblue;
+    line-height: 20px;
+    text-align: center;
+  } 
+
+  .main article{
+    float: left;
+    margin-top: 89px;
+    height: 240px;
+    margin-left: 10px;
+  }
+       
+  .main figure{
+    float: left; 
+    width:240px; 
+    height: 130px; 
+    padding: 0px; 
+    margin: 10px; 
+    border: 2px solid #d4d2ed;
+  }
+  
+  .main h3{
+    text-align: left;
+  }
+
+  .main p{
+    height:130px ;
+    display: flex;
+  }
+
+
+  
+
+
+  
+ 

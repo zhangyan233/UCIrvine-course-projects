@@ -1,0 +1,24 @@
+Feb 13, 2024 11:00:39 AM LogOutput update
+INFO: 
+Student Registration System
+
+Feb 13, 2024 11:00:39 AM LogOutput update
+INFO: 1) List all students
+Feb 13, 2024 11:00:39 AM LogOutput update
+INFO: 2) List all courses
+Feb 13, 2024 11:00:39 AM LogOutput update
+INFO: 3) List students who registered for a course
+Feb 13, 2024 11:00:39 AM LogOutput update
+INFO: 4) List courses a student has registered for
+Feb 13, 2024 11:00:39 AM LogOutput update
+INFO: 5) List courses a student has completed
+Feb 13, 2024 11:00:39 AM LogOutput update
+INFO: 6) Register a student for a course
+Feb 13, 2024 11:00:39 AM LogOutput update
+INFO: x) Exit
+Feb 13, 2024 11:00:39 AM LogOutput update
+INFO: 
+Enter your choice and press return >> 
+Feb 13, 2024 11:00:44 AM LogOutput update
+INFO: 
+Enter student ID and press return >> 
